@@ -4,8 +4,7 @@
 **Tutorial By Kenichi Miyata, JFCR**  
 
 ---
-<img width="1586" alt="スクリーンショット 2025-04-25 14 23 29" src="https://github.com/user-attachments/assets/22af0194-3b76-4bdd-9d17-bacf04f2e14a" />
-
+!["PseuMO-Tag"]("images/Fig.1a.png")
 ---
 
 ## 0. Setting up the analysis environment
