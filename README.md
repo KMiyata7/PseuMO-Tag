@@ -4,7 +4,7 @@
 **Tutorial By Kenichi Miyata, JFCR**  
 
 ---
-!["PseuMO-Tag"]("images/Fig.1a.png")
+!["PseuMO-Tag"](images/Fig.1a.png)
 ---
 
 ## 0. Setting up the analysis environment
