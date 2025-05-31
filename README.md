@@ -1,13 +1,13 @@
 # PseuMO-Tag Decoder
 **PseuMO-Tag**: <ins>**Pseu**</ins>do-<ins>**M**</ins>ulti<ins>**O**</ins>mics and cell <ins>**Tag**</ins>ging
+The development of this analysis tool is described in the following publication:
+https://doi.org/10.1101/2025.05.24.655549
 
 **Tutorial By Kenichi Miyata, JFCR**  
 
 ---
 !["PseuMO-Tag"](images/Fig.1a.png)
 ---
-The development of this analysis tool is described in the following publication:
-https://doi.org/10.1101/2025.05.24.655549
 
 ## 0. Setting up the analysis environment
 We recommend creating a Conda environment to install the required packages for PseuMO-Tag Decoder.  
