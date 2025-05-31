@@ -1,6 +1,8 @@
 # PseuMO-Tag Decoder
 **PseuMO-Tag**: <ins>**Pseu**</ins>do-<ins>**M**</ins>ulti<ins>**O**</ins>mics and cell <ins>**Tag**</ins>ging<br>
 
+The development of this analysis tool is described in the following [preprint](https://doi.org/10.1101/2025.05.24.655549).
+
 The development of this analysis tool is described in the following publication:
 https://doi.org/10.1101/2025.05.24.655549
 
