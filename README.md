@@ -3,9 +3,6 @@
 
 The development of this analysis tool is described in the following [preprint](https://doi.org/10.1101/2025.05.24.655549).
 
-The development of this analysis tool is described in the following publication:
-https://doi.org/10.1101/2025.05.24.655549
-
 **Tutorial By Kenichi Miyata, JFCR**  
 
 ---
