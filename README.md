@@ -134,16 +134,8 @@ bash ${code_dir}/mtxGenerator/PseuTag_mtxGenerator_v3.sh \
   List of samples.
 - `--resultFile` (default: `results.csv`, optional)  
   Name of the output file. Count matrix (Raw reads) of PseuMO-Tag barcode sequences (rows) per sample (columns)
-- `--analysisDir` (default: `/Volumes/Shared/Miyata/Epi_Dry/0.originalCodes_240327/PseuMO-Tag/mtxGenerator`, optional)  
+- `--analysisDir`  
   Directory of analysis scripts.
-
-### **Required Arguments**
-- `--sampleList` (default: `sample_list.txt`, optional)  
-  List of samples. Same as Step 1.
-- `--resultFile` (default: `results.csv`, optional)  
-  Name of the output file. The count matrix of PseuMO-Tag barcode sequences (rows) with raw read counts for each sample (columns).
-- `--analysisDir` (default: `/Volumes/Shared/Miyata/Epi_Dry/0.originalCodes_240327/PseuMO-Tag/mtxGenerator`, optional)  
-  Directory containing analysis scripts.
 
 <br>  
 
