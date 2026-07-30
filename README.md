@@ -76,9 +76,7 @@ bash PseuMO_Decoder.sh --sampleName ${sampleName} --AnalyzerDir $AnalyzerDir
 **Options**
 - --nCores - Number of cores. Default: 10
 
-<br>
-<br>
-****************************************************************
+---
 
 
 ## 2. Amplicon-seq (gDNA)
