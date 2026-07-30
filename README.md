@@ -95,3 +95,55 @@ bash ${code_dir}/mtxGenerator/PseuTag_mtxGenerator_v3.sh \
 - `--analysisDir` (default: `/Volumes/Shared/Miyata/Epi_Dry/0.originalCodes_240327/PseuMO-Tag/mtxGenerator`, optional)  
   Directory containing analysis scripts.
 
+<br>  
+
+****************************************************************
+# 2. scRNA-seq
+
+The following one-step package requires only 5 files.
+
+1. Fastq/${sampleName}_R1.fastq.gz
+2. Fastq/${sampleName}_R2.fastq.gz
+3. Ref/AllowList_HashTag.txt
+4. Ref/AllowList_PseuTag.txt
+5. Ref/CB.txt
+```shell:
+% head Ref/AllowList_HashTag.txt
+SCR
+% head Ref/AllowList_PseuTag.txt
+GGCGTATTCC
+GGGAATGTTA
+AGACACCTTC
+CAAGTGTAGA
+TAAAGGGGCG
+TAGGCTAACT
+ATGAACGGAT
+CATTGGTCCG
+CGCCACGTCA
+CGGCACCCAG
+% head Ref/CB.txt
+AAACCCAAGCAAATCA-1
+AAACCCAAGCACTAGG-1
+AAACCCAAGCGCCGTT-1
+AAACCCAAGCGGTAAC-1
+AAACCCAAGCTGACAG-1
+AAACCCAAGTGAACAT-1
+AAACCCAAGTGGATAT-1
+AAACCCACAATTAGGA-1
+AAACCCACAATTCTTC-1
+AAACCCACATATCTCT-1
+```
+
+### one-step package
+```shell:
+bash PseuMO_Decoder_v2.sh --sampleName ${sampleName} --AnalyzerDir $AnalyzerDir
+```
+**Requied**
+- --sampleName - Sample name. If the Amplicon's FastQ file name is "20240111Amp-ARI3-02_S6_R1/2.fastq.gz", the sample name is "20240111Amp-ARI3-02_S6". Please place Amplicon's FastQ files (R1 & R2) in the "Fastq" directory.
+- --AnalyzerDir - Directory Containing Analysis Pipelines.
+
+**Options**
+- --nCores - Number of cores. Default: 10
+
+<br>
+<br>
